@@ -5,7 +5,7 @@ It counts **lines**, **words**, and **bytes** from files or standard input.
 
 ---
 
-## 🚀 Features
+## Features
 - Count **lines** (`-l`), **words** (`-w`), and **bytes** (`-c`)
 - Works with one or more files
 - Supports reading from **stdin** (pipe input or `-`)
@@ -18,7 +18,7 @@ It counts **lines**, **words**, and **bytes** from files or standard input.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/my-wc.git
+   git clone https://github.com/dharwee/my-wc.git
    cd my-wc
    ```
 2. Build the binary:
@@ -26,9 +26,9 @@ It counts **lines**, **words**, and **bytes** from files or standard input.
     go build -o my-wc
     ```
 3. Run it:
-```bash
-./my-wc -l -w -c file.txt
-```
+    ```bash
+    ./my-wc -l -w -c file.txt
+    ```
 
 ## Flags
 
@@ -40,13 +40,13 @@ It counts **lines**, **words**, and **bytes** from files or standard input.
 
 ## 📚 Concepts Learned
 
-Command-line argument parsing with flag
+- Command-line argument parsing with flag
 
-File I/O with os.Open
+- File I/O with os.Open
 
-Streaming input with io.Reader
+- Streaming input with io.Reader
 
-Counting words using unicode.IsSpace
+- Counting words using unicode.IsSpace
 
-Handling stdin and multiple files
+- Handling stdin and multiple files
 
